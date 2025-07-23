@@ -2,11 +2,19 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/my-portfolio/', // 👈 Add this line
+  base: '/my-portfolio/',
   plugins: [react()],
   css: {
     modules: {
       localsConvention: "camelCase",
     },
   },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: './index.html'
+      }
+    }
+  }
 });

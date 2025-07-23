@@ -1,0 +1,12 @@
+[
+    {
+         "title": "Project A",
+         "imagesrc": "project/ProjectA.png",
+         "description": "Designed and developed my own portfolio using React to reflect my technical abilities, featuring dynamic content, smooth navigation, and project highlights.",
+         "skills": ["React","GitHub"],
+         "demo": "http://localhost:5173/",
+         "source" : "http://localhost:5173/githublink"
+
+    }
+    
+]

@@ -1,0 +1,197 @@
+@import "../../vars.css";
+
+/* ====== COMMON CONTAINER ====== */
+.container {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+/* ====== EXPERIENCE GRID CARDS ====== */
+.cardGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 30px;
+    justify-content: center;
+    margin-bottom: 60px; /* 👈 Add this */
+}
+
+.card {
+    background: linear-gradient(145deg, #1a2b4c, #132040);
+    padding: 20px;
+    border-radius: 16px;
+    width: 280px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 12px var(--color-accent);
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0 4px;
+    color: var(--color-text);
+}
+
+.card p {
+    font-size: 16px;
+    margin: 0;
+    color: #ccc;
+}
+
+.card span {
+    font-size: 14px;
+    color: #888;
+}
+
+/* ====== SELECTED DETAIL VIEW ====== */
+.detailView {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    background-color: #0d1b34;
+    border-radius: 14px;
+    padding: 24px;
+    border: 1px solid var(--color-accent);
+    position: relative;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detailHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detailView h3 {
+    font-size: 22px;
+    margin-bottom: 6px;
+    color: var(--color-text);
+}
+
+.detailView p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #ccc;
+}
+
+.detailView ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    line-height: 1.8;
+    color: var(--color-text);
+}
+
+.closeButton {
+    background: transparent;
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    color: var(--color-accent);
+}
+
+/* ====== SKILLS INFINITE SCROLL (HORIZONTAL) ====== */
+.horizontalSlider {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 60px;
+    position: relative;
+}
+
+.sliderTrack {
+    display: flex;
+    width: fit-content;
+    animation: scrollHorizontal 30s linear infinite;
+}
+
+.skillSlide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+    min-width: 100px;
+}
+
+.skillSlide img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 5px white);
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+}
+
+.skillSlide p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+@keyframes scrollHorizontal {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* ====== RESPONSIVE ====== */
+@media screen and (max-width: 830px) {
+    .container {
+        margin: 0 5%;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .cardGrid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .detailView {
+        width: 90%;
+    }
+
+    .skillSlide {
+        margin: 0 15px;
+    }
+}

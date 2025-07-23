@@ -1,0 +1,39 @@
+[
+    {
+         "role": "Software Engineer",
+         "organisation": "Infinix Infotech PVT LTD",
+         "startDate": "Sept, 2024",
+         "endDate": "Present",
+          "experiences": [
+      "Led backend development for multi-department CRM",
+      "Integrated Razorpay for seamless online payments",
+      "Added Click-to-Call using WebRTC and CRM hooks",
+      "Used SignalR to push real-time data in Cyber Complain",
+      "Delivered 250+ secure APIs with .NET Core and MongoDB",
+      "Built automated workflows; reduced support load by 50%",
+      "Added Firebase for push alerts and notifications",
+      "Optimized async pipelines to improve API speed"
+    ],
+         "imagesrc" : "history/Infinix.png"
+
+    },
+
+   {
+         "role": "Associate Software Engineer",
+         "organisation": "Synoverge Technology PVT LTD",
+         "startDate": "Jul, 2023",
+         "endDate": "Jul, 2024",
+         "experiences": ["Worked on CRM which manage the customer data for better service", "led Backend development in CyberComplain App where i handle backend development creating api"],
+         "imagesrc" : "history/Synoverge.png"
+
+    },
+    {
+         "role": "Trainee",
+         "organisation": "Synoverge Technology PVT LTD",
+         "startDate": "Jan, 2023",
+         "endDate": "Jul, 2023",
+         "experiences": ["Worked on CRM which manage the customer data for better service", "led Backend development in CyberComplain App where i handle backend development creating api"],
+         "imagesrc" : "history/Synoverge.png"
+
+    }
+]

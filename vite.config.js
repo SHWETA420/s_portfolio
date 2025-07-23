@@ -1,12 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/shweta-portfolio/', // 👈 Add this line
   plugins: [react()],
-  css:{
-    modules : {
-        localsConvention:"camelCase",
+  css: {
+    modules: {
+      localsConvention: "camelCase",
     },
   },
 });

@@ -1,39 +1,56 @@
 [
-    {
-         "role": "Software Engineer",
-         "organisation": "Infinix Infotech PVT LTD",
-         "startDate": "Sept, 2024",
-         "endDate": "Present",
+     {
+          "role": "Software Engineer",
+          "organisation": "Infinix Infotech PVT LTD",
+          "startDate": "Sept, 2024",
+          "endDate": "Present",
           "experiences": [
-      "Led backend development for multi-department CRM",
-      "Integrated Razorpay for seamless online payments",
-      "Added Click-to-Call using WebRTC and CRM hooks",
-      "Used SignalR to push real-time data in Cyber Complain",
-      "Delivered 250+ secure APIs with .NET Core and MongoDB",
-      "Built automated workflows; reduced support load by 50%",
-      "Added Firebase for push alerts and notifications",
-      "Optimized async pipelines to improve API speed"
-    ],
-         "imagesrc" : "Infinix"
-
-    },
-
-   {
-         "role": "Associate Software Engineer",
-         "organisation": "Synoverge Technology PVT LTD",
-         "startDate": "Jul, 2023",
-         "endDate": "Jul, 2024",
-         "experiences": ["Worked on CRM which manage the customer data for better service", "led Backend development in CyberComplain App where i handle backend development creating api"],
-         "imagesrc" : "Synoverge"
-
-    },
-    {
-         "role": "Trainee",
-         "organisation": "Synoverge Technology PVT LTD",
-         "startDate": "Jan, 2023",
-         "endDate": "Jul, 2023",
-         "experiences": ["Worked on CRM which manage the customer data for better service", "led Backend development in CyberComplain App where i handle backend development creating api"],
-         "imagesrc" : "Synoverge"
-
-    }
+               "Develope a full-stack architecture using React and ASP.NET Core Web API, ensuring clean code structure and scalability.",
+               "Independently designed backend architecture using layered structure and separated business logic into modular service and repository layers.",
+               "Built and secured over 250 RESTful APIs using JWT authentication and role-based access control, handling complex workflows with MongoDB.",
+               "Developed dynamic React components from scratch for client records, dashboards, and lead tracking with a focus on reusability and performance.",
+               "Integrated Firebase and SignalR to implement real-time notifications and internal chat, enhancing user communication and system responsiveness.",
+               "Took full ownership of implementing click-to-call functionality, including call logging, recording, and secure data persistence.",
+               "Designed and implemented the entire Lead Management module, including follow-up scheduling, lead status flow, and user-wise visibility.",
+               "Built the full workflow for Payment Raise, Sales Order, and Paid Client tracking, including form validation and backend API integration.",
+               "Handled Excel integration end-to-end, including backend parsing logic and frontend data mapping for imports and exports.",
+               "Designed and coded the user timeline module, enabling visual step-by-step tracking of system interactions and user actions.",
+               "Implemented hierarchy-based access rules, allowing reporting users to see team-wide activity, stats, and control data visibility.",
+               "Automated recurring tasks using cron jobs and background services, reducing manual workload for data sync and alerts.",
+               "Improved backend performance by profiling async/await patterns and optimizing MongoDB queries for faster response times.",
+               "Focused on responsive design and clean UI/UX, ensuring smooth experience across devices for internal users in sales and support."
+          ],
+          "imagesrc": "Infinix"
+     },
+     {
+          "role": "Associate Software Engineer",
+          "organisation": "Synoverge Technology PVT LTD",
+          "startDate": "Jul, 2023",
+          "endDate": "Jul, 2024",
+          "experiences": [
+               "Developed backend services to move complex data from SQL Server to Cosmos DB using ASP.NET Core, Azure Functions, and C#.",
+               "Created custom filtering logic to handle Cosmos DB limitations and ensure complete data migration.",
+               "Wrote NUnit test cases with over 90% coverage to check data accuracy and support CI/CD.",
+               "Handled 15+ client change requests in the HDFC Travel Insurance project, working on both backend logic and frontend updates.",
+               "Made independent improvements to frontend and backend using ASP.NET MVC and SQL Server while maintaining code quality.",
+               "Maintained XUnit test coverage to ensure stability and prevent bugs through test-driven development."
+          ],
+          "imagesrc": "Synoverge"
+     },
+     {
+          "role": "Trainee",
+          "organisation": "Synoverge Technology PVT LTD",
+          "startDate": "Jan, 2023",
+          "endDate": "Jul, 2023",
+          "experiences": [
+               "Worked closely with senior developers and teammates to understand real-world software development processes and best practices.",
+               "Took part in daily training sessions covering ASP.NET MVC, Web API, React, TypeScript, and SQL Server to build strong technical foundations.",
+               "Developed a Wordle-style game using ASP.NET MVC and SQL Server to improve backend logic, data handling, and state management skills.",
+               "Built a Booking Appointment System using React and TypeScript, focusing on clean component structure and smooth API integration.",
+               "Practiced writing clean, maintainable code and learned effective debugging techniques to solve practical coding issues.",
+               "Collaborated with peers through code reviews and group discussions to improve teamwork and communication skills.",
+               "Gained hands-on experience in building full-stack applications and applying classroom knowledge to real mini-projects."
+          ],
+          "imagesrc": "Synoverge"
+     }
 ]

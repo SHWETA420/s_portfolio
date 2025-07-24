@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./Experiance.module.css";
 import skills from "../../../Data/skills.json";
 import history from "../../../Data/history.json";
-import { getImageUrl } from "../../utils";
+import { getImage } from "../../utils";
 
 export const Experiance = () => {
     const [selectedJob, setSelectedJob] = useState(null);
@@ -20,7 +20,7 @@ export const Experiance = () => {
                             className={styles.card}
                             onClick={() => setSelectedJob(job)}
                         >
-                            <img src={getImageUrl(job.imagesrc)} alt={`${job.organisation} logo`} />
+                            <img src={getImage[job.imagesrc.split("/").pop().split(".")[0]]} alt={`${job.organisation} logo`} />
                             <h3>{job.role}</h3>
                             <p>{job.organisation}</p>
                             <span>{job.startDate} - {job.endDate}</span>
@@ -49,13 +49,13 @@ export const Experiance = () => {
                     <div className={styles.sliderTrack}>
                         {skills.map((skill, id) => (
                             <div key={id} className={styles.skillSlide}>
-                                <img src={getImageUrl(skill.imagesrc)} alt={skill.title} />
+                                <img src={getImage[skill.imagesrc.split("/").pop().split(".")[0]]} alt={skill.title} />
                                 <p>{skill.title}</p>
                             </div>
                         ))}
                         {skills.map((skill, id) => (
                             <div key={`dup-${id}`} className={styles.skillSlide}>
-                                <img src={getImageUrl(skill.imagesrc)} alt={skill.title} />
+                                <img src={getImage[skill.imagesrc.split("/").pop().split(".")[0]]} alt={skill.title} />
                                 <p>{skill.title}</p>
                             </div>
                         ))}

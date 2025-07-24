@@ -1,42 +1,42 @@
 [
     {
         "title": "HTML",
-        "imagesrc": "skills/html.png"
+        "imagesrc": "html"
     },
     {
         "title": "CSS",
-        "imagesrc": "skills/css.png"
+        "imagesrc": "css"
     },
      {
         "title": "Javascript",
-        "imagesrc": "skills/javascript.png"
+        "imagesrc": "javascript"
     },
      {
         "title": "C#",
-        "imagesrc": "skills/csharp.png"
+        "imagesrc": "csharp"
     },
      {
         "title": ".Net",
-        "imagesrc": "skills/Net.png"
+        "imagesrc": "Net"
     },
      {
         "title": "React",
-        "imagesrc": "skills/react.png"
+        "imagesrc": "react"
     },
      {
         "title": "Azure",
-        "imagesrc": "skills/azure.png"
+        "imagesrc": "azure"
     },
      {
         "title": "SQL",
-        "imagesrc": "skills/sql.png"
+        "imagesrc": "sql"
     },
      {
         "title": "MongoDB",
-        "imagesrc": "skills/mongodb.png"
+        "imagesrc": "mongodb"
     }, 
     {
         "title": "Git/GitHub",
-        "imagesrc": "skills/git.png"
+        "imagesrc": "git"
     }
 ]

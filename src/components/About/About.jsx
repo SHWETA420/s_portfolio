@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./About.module.css";
-import { getImageUrl } from "../../utils";
-
+import { getImage } from "../../utils";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
@@ -9,14 +8,14 @@ export const About = () => {
       <div className={styles.content}>
         <img
           className={styles.aboutImage}
-          src={getImageUrl("about/about.png")}
+          src={getImage.about}
           alt="Me sitting with laptop"
         />
 
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img
-              src={getImageUrl("about/Frontend.png")}
+              src={getImage.Frontend}
               alt="Frontend developer"
             />
             <div className={styles.aboutItemText}>
@@ -32,7 +31,7 @@ export const About = () => {
 
           <li className={styles.aboutItem}>
             <img
-              src={getImageUrl("about/Backend.png")}
+              src={getImage.Backend}
               alt="Backend developer"
             />
             <div className={styles.aboutItemText}>

@@ -1,5 +1,5 @@
 import React from "react";
-import { getImageUrl } from "../../utils";
+import { getImage } from "../../utils";
 import styles from "./Contact.module.css";
 
 export const Contact =() => {
@@ -12,15 +12,15 @@ export const Contact =() => {
         </div>
         <ul className={styles.links}>
             <li className={styles.link}>
-                <img src={getImageUrl("contact/gmail.png")} alt="Email Icon"></img>
+                <img src={getImage.gmail} alt="Email Icon"></img>
                 <a href="shwetasingh28072001@gmail.com">shwetasingh28072001@gmail.com</a>
             </li>
              <li className={styles.link}>
-                <img src={getImageUrl("contact/linkdln.png")} alt="linkdln Icon"></img>
+                <img src={getImage.linkdln} alt="linkdln Icon"></img>
                 <a href="linkedin.com/in/shweta-singh-567988219">linkedin.com/in/shweta-singh-567988219</a>
             </li>
              <li className={styles.link}>
-                <img src={getImageUrl("contact/git.png")} alt="Email Icon"></img>
+                <img src={getImage.git} alt="Git Icon"></img>
                 <a href="https://github.com/SHWETA420">https://github.com/SHWETA420</a>
             </li>
         </ul>

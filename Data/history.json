@@ -14,7 +14,7 @@
       "Added Firebase for push alerts and notifications",
       "Optimized async pipelines to improve API speed"
     ],
-         "imagesrc" : "history/Infinix.png"
+         "imagesrc" : "Infinix"
 
     },
 
@@ -24,7 +24,7 @@
          "startDate": "Jul, 2023",
          "endDate": "Jul, 2024",
          "experiences": ["Worked on CRM which manage the customer data for better service", "led Backend development in CyberComplain App where i handle backend development creating api"],
-         "imagesrc" : "history/Synoverge.png"
+         "imagesrc" : "Synoverge"
 
     },
     {
@@ -33,7 +33,7 @@
          "startDate": "Jan, 2023",
          "endDate": "Jul, 2023",
          "experiences": ["Worked on CRM which manage the customer data for better service", "led Backend development in CyberComplain App where i handle backend development creating api"],
-         "imagesrc" : "history/Synoverge.png"
+         "imagesrc" : "Synoverge"
 
     }
 ]

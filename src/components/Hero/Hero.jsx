@@ -1,7 +1,6 @@
 import React from "react";
-import { getImageUrl } from "../../utils";
+import { getImage } from "../../utils";
 import styles from "./Hero.module.css";
-
 export const Hero = () => {
     return (
         <>
@@ -15,7 +14,7 @@ export const Hero = () => {
                     </p>
                     <a
                         className={styles.contactdetail}
-                        href={"/assets/hero/Shweta_Resume.pdf"}
+                        href={getImage.resume}
                         target="_blank"
                         rel="noopener noreferrer"
                         download
@@ -23,7 +22,7 @@ export const Hero = () => {
                         Download Resume
                     </a>
                 </div>
-                <img className={styles.heroImg} src={getImageUrl("hero/favicon.png")} alt="Hero image of me"></img>
+                <img className={styles.heroImg} src={getImage.favicon} alt="Hero image of me"></img>
                 <div className={styles.topBlur}></div>
                 <div className={styles.bottomBlur}></div>
             </section>

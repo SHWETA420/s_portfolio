@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { getImageUrl } from "../../utils";
+import { getImage } from "../../utils";
 import styles from "./ProjectCard.module.css";
 
 export const ProjectCard = ({ project: { title, imagesrc, description, skills, demo, source } }) => {
@@ -7,7 +7,7 @@ export const ProjectCard = ({ project: { title, imagesrc, description, skills, d
 
     return (
         <div className={styles.container}>
-            <img src={getImageUrl(imagesrc)} alt={`Image of ${title}`} className={styles.image} />
+            <img src={getImage[imagesrc.split("/").pop().split(".")[0]]} alt={`Image of ${title}`} className={styles.image} />
             <h3 className={styles.title}>{title}</h3>
 
             <p className={`${styles.description} ${expanded ? styles.expanded : styles.clamped}`}>

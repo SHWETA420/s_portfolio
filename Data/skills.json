@@ -1,0 +1,42 @@
+[
+    {
+        "title": "HTML",
+        "imagesrc": "html"
+    },
+    {
+        "title": "CSS",
+        "imagesrc": "css"
+    },
+     {
+        "title": "Javascript",
+        "imagesrc": "javascript"
+    },
+     {
+        "title": "C#",
+        "imagesrc": "csharp"
+    },
+     {
+        "title": ".Net",
+        "imagesrc": "Net"
+    },
+     {
+        "title": "React",
+        "imagesrc": "react"
+    },
+     {
+        "title": "Azure",
+        "imagesrc": "azure"
+    },
+     {
+        "title": "SQL",
+        "imagesrc": "sql"
+    },
+     {
+        "title": "MongoDB",
+        "imagesrc": "mongodb"
+    }, 
+    {
+        "title": "Git/GitHub",
+        "imagesrc": "git"
+    }
+]
